@@ -47,8 +47,8 @@ export const infos = {
   domain: "murilocanonicoadvcom.br", // Sem "www"
   phone: {
     ddd: "43",
-    firstPart: "99141", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7186", // Apenas os 4 últimos números
+    firstPart: "99123", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7170", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
