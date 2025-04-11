@@ -25,7 +25,7 @@ export default function Index() {
         sixCards={false}
       />
 
-      <About modal={true} />
+      <About modal={false} />
       {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
