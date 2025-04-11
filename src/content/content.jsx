@@ -158,8 +158,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Bancário e Financeiro",
-        subtitle: "Empréstimo consignado e juros abusivos.",
+        title: "Direito Bancário",
+        subtitle:
+          "Atuação em conflitos entre consumidores e instituições financeiras.",
         description: (
           <div>
             A_Definir
@@ -195,9 +196,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fraudes e Golpes",
-        subtitle:
-          "Ações contra fraudes bancárias, incluindo golpes envolvendo PIX.",
+        title: "Direito Digital",
+        subtitle: "Recuperação de contas de redes sociais.",
         description: (
           <div>
             A_Definir
@@ -382,10 +382,11 @@ const content = {
         "Advogado cível com foco em soluções rápidas para questões bancárias complexas.",
       paragraph: (
         <div>
-          Sou advogado cível desde 2017, com quase 10 anos de experiência na
-          área. Durante esse período, tive a oportunidade de atuar em diversas
-          questões do direito civil, o que me proporcionou um conhecimento amplo
-          das mais variadas situações.
+          Sou advogado cível desde 2017, com ampla experiência em diversas áreas
+          do direito. Nos últimos anos, passei a focar em casos bancários, como
+          financiamentos irregulares, empréstimos não contratados e fraudes
+          envolvendo o PIX, oferecendo soluções rápidas e eficazes para meus
+          clientes.
           <br />
           No entanto, ao longo dos últimos anos, percebi que muitos dos meus
           clientes estavam enfrentando problemas complexos no setor bancário,
@@ -396,37 +397,21 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou advogado cível desde 2017, com quase 10 anos de experiência na
-          área. Durante esse período, tive a oportunidade de atuar em diversas
-          questões do direito civil, o que me proporcionou um conhecimento amplo
-          das mais variadas situações.
           <br />
           <br />
-          No entanto, ao longo dos últimos anos, percebi que muitos dos meus
-          clientes estavam enfrentando problemas complexos no setor bancário,
-          como financiamentos defeituosos, empréstimos não contratados e,
-          principalmente, fraudes como os golpes envolvendo o PIX.
+
           <br />
           <br />
-          Esses casos são desafiadores, pois envolvem não apenas aspectos
-          jurídicos, mas também questões de fraudes e ações de golpistas que
-          prejudicam diretamente os consumidores.
+
           <br />
           <br />
-          Diante disso, passei a me especializar nessas áreas, buscando sempre
-          oferecer soluções rápidas e eficazes para quem procura justiça.
+
           <br />
           <br />
-          O que me diferencia é a minha abordagem prática e eficiente. Sei que,
-          ao procurar um advogado, o cliente deseja uma solução ágil para
-          resolver seu problema, e é justamente isso que busco oferecer.
+
           <br />
           <br />
-          Meu compromisso é atuar com celeridade, buscando sempre o melhor
-          resultado para cada caso, com uma taxa de sucesso significativa. Essas
-          questões bancárias, por serem muitas vezes complicadas e burocráticas,
-          exigem um advogado comprometido em entregar resultados rápidos e
-          eficazes. E é isso que faço com dedicação e expertise.
+
           <br />
           <br />
         </p>
