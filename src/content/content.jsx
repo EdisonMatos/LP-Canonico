@@ -388,10 +388,10 @@ const content = {
           envolvendo o PIX, oferecendo soluções rápidas e eficazes para meus
           clientes.
           <br />
-          No entanto, ao longo dos últimos anos, percebi que muitos dos meus
-          clientes estavam enfrentando problemas complexos no setor bancário,
-          como financiamentos defeituosos, empréstimos não contratados e,
-          principalmente, fraudes como os golpes envolvendo o PIX.
+          Meu diferencial é a atuação prática e ágil. Entendo que quem busca um
+          advogado quer resolver seu problema com eficiência, e é exatamente
+          isso que me proponho a entregar: resultados rápidos em questões muitas
+          vezes complexas e burocráticas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
