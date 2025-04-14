@@ -1,5 +1,5 @@
 import logo from "../assets/imgs/logo/logo.webp";
-import heroImg from "../assets/imgs/hero/lawHero.webp";
+import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -22,9 +22,9 @@ import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeatures1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeatures2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeatures3.jpg";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
@@ -38,6 +38,8 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+
+import { FaWhatsapp } from "react-icons/fa";
 
 const currentYear = new Date().getFullYear();
 
@@ -158,77 +160,75 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Bancário",
-        subtitle:
-          "Atuação em conflitos entre consumidores e instituições financeiras.",
+        title: "Direito Financeiro",
+        subtitle: (
+          <p>
+            - Financiamentos e empréstimos; <br /> - Golpes via PIX e Fraudes
+            pelo celular; <br /> - Negociação de dívidas.
+          </p>
+        ),
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            <p></p>
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
+        icon: <FaWhatsapp />,
         buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
+        buttonLabel: "Falar com Advogado",
       },
       card2: {
         img: featuresImg2,
         title: "Direito Digital",
-        subtitle: "Recuperação de contas de redes sociais.",
+        subtitle: (
+          <p>
+            Recuperação de rede social: <br /> - Facebook, Instagram, Twitter
+            (X) e Tiktok; <br /> - Indenização por danos morais, quando
+            aplicável.
+          </p>
+        ),
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            <p>
+              Recuperação de perfis: <br /> - Facebook; <br />
+              - Instagram; <br />
+              - Twitter (X); e <br />
+              - Tiktok. <br />
+              <br />
+              Buscamos indenização por danos morais, quando aplicável.
+            </p>
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
-          >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
+        icon: <FaWhatsapp />,
         buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
+        buttonLabel: "Falar com Advogado",
       },
       card3: {
+        img: featuresImg3,
+        title: "Consultoria Jurídica",
+        subtitle: (
+          <p>
+            - Orientações legais personalizadas para pessoas e empresas;
+            <br />- Consultoria preventiva para evitar problemas jurídicos antes
+            que aconteçam.
+          </p>
+        ),
+        description: (
+          <div>
+            <p>
+              - Orientações legais personalizadas para pessoas e empresas;e{" "}
+              <br />- Consultoria preventiva para evitar problemas jurídicos
+              antes que aconteçam.
+            </p>
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: <FaWhatsapp />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Falar com Advogado",
+      },
+      card4: {
         img: featuresImg3,
         title: "Financiamentos e Empréstimos",
         subtitle: "Defesa contra juros abusivos em empréstimos consignados.",
@@ -258,40 +258,6 @@ const content = {
             <path d="m2 16 6 6" />
             <circle cx="16" cy="9" r="2.9" />
             <circle cx="6" cy="5" r="3" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card4: {
-        img: featuresImg4,
-        title: "Financiamentos Defeituosos",
-        subtitle:
-          "Ações envolvendo financiamentos defeituosos de veículos e imóveis.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-thumbs-down"
-          >
-            <path d="M17 14V2" />
-            <path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",

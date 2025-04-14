@@ -45,14 +45,15 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
                     paragraph={content.texts.features.card1.subtitle}
                     className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                   />
+                  
                 </MotionDivDownToUp>
-                <MotionDivDownToUp>
+                {/* <MotionDivDownToUp>
                   <IconFeatureCard
                     icon={content.texts.features.card2.icon}
                     title={content.texts.features.card2.title}
                     paragraph={content.texts.features.card2.subtitle}
                   />
-                </MotionDivDownToUp>
+                </MotionDivDownToUp> */}
               </div>
 
               <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
@@ -73,7 +74,7 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
                     className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                   />
                 </MotionDivDownToUp>
-                <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
+                {/* <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                   <IconFeatureCard
                     icon={content.texts.features.card4.icon}
                     title={content.texts.features.card4.title}
@@ -82,11 +83,11 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
                     {modal && (
                       <div>
                         <ServicesModal />
-                        {/* <MoreFeaturesModal /> */}
+                        <MoreFeaturesModal />
                       </div>
                     )}
                   </IconFeatureCard>
-                </MotionDivDownToUp>
+                </MotionDivDownToUp> */}
               </div>
             </div>
           </SectionWrapper>
