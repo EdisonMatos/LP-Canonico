@@ -46,24 +46,6 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               animation
-              onClick={() =>
-                onClick(
-                  content.texts.features.card1.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card1.imgModal}
-                      subtitle=""
-                      description={content.texts.features.card1.description}
-                      buttonIcon={content.texts.features.card1.icon}
-                      buttonLabel={
-                        content.texts.features.card1.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                      bgPosition="bg-top"
-                    />
-                  </div>
-                )
-              }
             />
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card2.img}
@@ -71,23 +53,6 @@ export default function FeaturesButton() {
               description={content.texts.features.card2.subtitle}
               buttonLabel={content.texts.features.card2.buttonLabel}
               animation
-              onClick={() =>
-                onClick(
-                  content.texts.features.card2.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card2.imgModal}
-                      subtitle=""
-                      description={content.texts.features.card2.description}
-                      buttonIcon={content.texts.features.card2.icon}
-                      buttonLabel={
-                        content.texts.features.card2.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                    />
-                  </div>
-                )
-              }
             />
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card3.img}
@@ -95,51 +60,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card3.subtitle}
               buttonLabel={content.texts.features.card3.buttonLabel}
               animation
-              onClick={() =>
-                onClick(
-                  content.texts.features.card3.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card3.imgModal}
-                      subtitle=""
-                      description={content.texts.features.card3.description}
-                      buttonIcon={content.texts.features.card3.icon}
-                      buttonLabel={
-                        content.texts.features.card3.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                      bgPosition="bg-top"
-                    />
-                  </div>
-                )
-              }
             />
-            {/* <FeatureImgOnBgCardButton
-              bgImg={content.texts.features.card4.img}
-              title={content.texts.features.card4.title}
-              description={content.texts.features.card4.subtitle}
-              buttonLabel={content.texts.features.card4.buttonLabel}
-              animation
-              b
-              onClick={() =>
-                onClick(
-                  content.texts.features.card4.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card4.imgModal}
-                      subtitle={content.texts.features.card4.subtitle}
-                      description={content.texts.features.card4.description}
-                      buttonIcon={content.texts.features.card4.icon}
-                      buttonLabel={
-                        content.texts.features.card4.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                      bgPosition="bg-top"
-                    />
-                  </div>
-                )
-              }
-            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>

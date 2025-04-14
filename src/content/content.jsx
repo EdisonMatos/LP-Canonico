@@ -209,9 +209,9 @@ const content = {
         title: "Consultoria Jurídica",
         subtitle: (
           <p>
-            - Orientações legais personalizadas para pessoas e empresas; <br />-
-            Consultoria preventiva para evitar problemas jurídicos antes que
-            aconteçam.
+            - Orientações legais personalizadas para pessoas e empresas;
+            <br />- Consultoria preventiva para evitar problemas jurídicos antes
+            que aconteçam.
           </p>
         ),
         description: (
