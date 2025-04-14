@@ -18,8 +18,8 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       <Features
-        defaultFeature={true}
-        button={false}
+        defaultFeature={false}
+        button={true}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}

@@ -52,7 +52,7 @@ export default function FeaturesButton() {
                   <div>
                     <ServiceDetailCard
                       img={content.texts.features.card1.imgModal}
-                      subtitle={content.texts.features.card1.subtitle}
+                      subtitle=""
                       description={content.texts.features.card1.description}
                       buttonIcon={content.texts.features.card1.icon}
                       buttonLabel={
@@ -77,7 +77,7 @@ export default function FeaturesButton() {
                   <div>
                     <ServiceDetailCard
                       img={content.texts.features.card2.imgModal}
-                      subtitle={content.texts.features.card2.subtitle}
+                      subtitle=""
                       description={content.texts.features.card2.description}
                       buttonIcon={content.texts.features.card2.icon}
                       buttonLabel={
@@ -101,7 +101,7 @@ export default function FeaturesButton() {
                   <div>
                     <ServiceDetailCard
                       img={content.texts.features.card3.imgModal}
-                      subtitle={content.texts.features.card3.subtitle}
+                      subtitle=""
                       description={content.texts.features.card3.description}
                       buttonIcon={content.texts.features.card3.icon}
                       buttonLabel={
@@ -114,7 +114,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            <FeatureImgOnBgCardButton
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card4.img}
               title={content.texts.features.card4.title}
               description={content.texts.features.card4.subtitle}
@@ -139,7 +139,7 @@ export default function FeaturesButton() {
                   </div>
                 )
               }
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
